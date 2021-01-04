@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css1.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <img src="img/Logo1.jpg" height="250xp" width="350xp" id="logo1">
+    <br><br>
+    <header>
+        <ul class="nav">
+            <li><a href="Quienes Somos.html">Quienes Somos</a></li>
+            <li><a href="Instalaciones.html">Instalaciones</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="tienda.html">Tienda</a></li>
+        </ul>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>Contacta con Nosotros</h1>
+    <p>Actualmente la sede está siatuada en Madrid, a continuación se especifican los datos del centro. </p>
+    <p>Dirección: Universidad Europea de Madrid. Campus Villaviciosa de Odón. Calle Tajo S/N Villaviciosa de Odón.</p>
+    <p>Teléfono (Madrid): 91 211 56 73</p>
+    <p>Email: contacto.ehya@gmail.com</p>
+    <br>
+    <br>
+    <br>
+    <form name="_Formulario" method="GET" action="mailto:raul.rodriguez@universidadeuropea.es" id="Form">
+        <fieldset>
+            <legend>Formulario de contacto</legend>
+            Nombre: <input type="text" name="Nombre" required maxlength="50">
+            <br><br>
+            Apellidos: <input type="text" name="Apellidos" required maxlength="50">
+            <br><br>
+            Dirección Postal: <input type="number" name="DirreccionPostal" required maxlength="5">
+            <br><br>
+            Correo: <input type="text" name="Correo" required>
+            <br><br>
+            Teléfono: <input type="number" name="telefono" required maxlength="9">
+            <br><br>
+            Asunto:
+            <br><BR>
+            <input type="checkbox" name="Informacion">Consultoría
+            <br><br>
+            <input type="checkbox" name="Informacion">Desarrollo de Proyectos
+            <br><br>
+            <input type="checkbox" name="Informacion">Realización de Pedidos
+            <br><br>
+            <input type="checkbox" name="Informacion">Otros
+            <br><br>
+            <br><br>
+            Informacion Adicional:
+            <textarea name="Descripcion"></textarea>
+            <br><br>
+
+            <br><br>
+
+            <button type="submit" name="Enviar" >Enviar a Mail</button>
+            <button type="reset" name="Borrar">Resetear</button>
+            <input type="file" name="seleccionar" accept=".pdf, .jpg, .png" multiple>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

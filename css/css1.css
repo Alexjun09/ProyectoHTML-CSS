@@ -1,0 +1,136 @@
+body{
+    background-image: url("../img/background2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#TablaMenu{
+    margin-right: auto;
+    margin-left: auto;
+    align
+    text-align: center;
+    background-color: gray;
+    border: black;
+    border-spacing: 0px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+#logo1{
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+header{
+	text-align: center;
+	margin:auto;
+	width: 800px;
+	font-family: "Arial";
+}
+ul{
+	list-style: none;
+}
+.nav li a{
+	background-color: gray;
+	color:black;
+	text-decoration:none;
+	padding:20px 30px;
+	display:block;
+
+}
+.nav li a:hover{
+	background-color:lightblue;
+	color:red;
+    opacity: 0.6;
+}
+
+.nav >li{
+	float:left;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+p{
+    font-family: arial;
+    border-style: inset;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+}
+
+#nuestrosclientes{
+    margin-right: auto;
+    margin-left: auto;
+    display: block
+}
+
+#Form{
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tabla2{
+    margin-left: auto;
+    margin-right: auto;
+}
+#tablamicro{
+    display: table;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: gray;
+    border-style: solid;
+
+}
+#amd{
+    background-color: red;
+}
+
+#intel{
+    background-color: lightskyblue;
+}
+#tablabase{
+    display: table;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: lightcoral;
+    border-style: solid;
+}
+#gigabyte{
+    background-color: orangered;
+}
+#asus{
+    background-color: red;
+}
+#asrock
+{
+    background-color: gray;
+}
+#msi{
+    background-color: black;
+    color: white;
+}
+#tablagrafica{
+    display: table;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: turquoise;
+    border-style: solid;
+}
+#nvidia{
+    background-color: green;
+}
